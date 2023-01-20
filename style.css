@@ -1,0 +1,170 @@
+body{
+    /* background-image: linear-gradient(45deg, purple, green); */
+    background-image:url(http://www.hatterkepek24.hu/wp-content/uploads/2014/03/Fantasztikus-Sivatag-H%C3%A1tt%C3%A9rk%C3%A9p-23.jpg);
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    min-height: 100vh;
+    gap: 15vw;
+}
+
+nav{
+    flex: 1 1;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    gap: 7vh;
+    font-size: 24px;
+    background-color: rgb(182, 115, 33);
+    border-radius: 0 8px 8px 0;
+}
+
+
+main{
+    flex: 9 0;
+}
+
+a,
+a:active,
+a:visited{
+    text-decoration: none;
+    color: inherit;
+    transition: color 225ms ease;
+}
+
+a.jelenlegi{
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    background-image: linear-gradient(to right, #990e1a, rgb(137, 15, 102));
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+main.index,
+main.orarend,
+main.magamrol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.index > div,
+main.orarend > div,
+main.magamrol > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(182, 115, 33, 0.853);
+    min-height: 60vh;
+    border-radius: 8px 0 0 8px;
+}
+
+main.orarend table {
+    border-collapse: collapse;
+}
+
+main.orarend td, th {
+    border: 1px solid rgba(102, 95, 95, 0.3);
+    text-align: center;
+    padding: 8px;
+     color:rgb(191, 191, 213);
+      
+}
+
+main.orarend th{
+    background-color: rgb(70, 33, 8);
+    border-bottom-width: 2px;
+}
+  
+main.orarend tr:nth-child(even) {
+    background-color: rgba(121, 29, 29, 0.7);
+}
+
+main.index > div{
+    gap: 12px;
+}
+
+main.index #orarend{
+    background-image: linear-gradient(to right, rgb(255, 30, 0), rgb(109, 13, 13));
+    padding: 12px 16px;
+    border-radius: 999px;
+    color: rgb(226, 106, 0)
+    a hover color  ghostwhite
+}
+
+main.magamrol #github{
+    background-image: linear-gradient(to right, rgb(55, 55, 55), rgb(100, 100, 100));
+    padding: 12px 16px;
+    border-radius: 999px;
+    color: white
+    a hover
+        color ghostwhite;
+        margin-top:80px;
+    }
+    
+
+
+
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: arial;
+}
+body {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+
+}
+h1 {
+    position: relative;
+    font-size: 2.5em;
+    Letter-spacing: 15px;
+    color: #702f17;
+    text-transform: uppercase;
+    width: 100vh;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    ;
+    Line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate 
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color: #702117;
+        text-shadow: none;
+    }  
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color: #fff;
+        text-shadow: 0 0 10px rgb(255, 106, 20),
+        0 0 20px rgb(151, 57, 6),
+        0 0 40px rgb(255, 181, 20),
+        0 0 80px rgb(255, 130, 20),
+        0 0 160px rgb(255, 94, 0);
+    }
+    } 
+
+
+
+p 
+{
+margin-top:30px;
+font-size:25px;
+
+}
